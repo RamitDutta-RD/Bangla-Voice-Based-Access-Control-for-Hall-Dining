@@ -8,9 +8,10 @@ Demonstration video <a href="https://youtu.be/1bJfJCFnFjw">link</a>
 - [Introduction](#introduction)
 - [Software Used](#software-used)
 - [Workflow Diagram](#workflow-diagram)
-- [End-point detection](#End-point-detection)
-- [MFCC Feature Extraction](#MFCC-Feature-Extraction)
-- [Dynamic Time Warping](#Dynamic-Time-Warping)
+- [End-point detection](#end-point-detection)
+- [MFCC Feature Extraction](#mfcc-feature-extraction)
+- [Dynamic Time Warping](#dynamic-time-warping)
+- [Implementation](#implementation)
 - [Team](#team)
 ## Introduction
 
@@ -100,6 +101,28 @@ Here Cost matrix is used to find out the wrap path. Backtracking is done from th
   <img src="https://user-images.githubusercontent.com/66994793/137641185-49d1db5e-d08b-441a-a340-196e840ab1f5.png" width="400">
 </p>
 Our objective is to calculate the global warp cost from two vectors which indicates the minimum difference between them. 
+
+## Implementation
+
+
+![image](https://user-images.githubusercontent.com/66994793/137641985-3cdaa9bd-4dcb-4b8e-af0a-de6dd9721bf5.png)
+
+- Creates new directory for new user
+- Store audio file in that directory
+- Calculates MFCC coefficients for new audio data
+- Performs DTW between new MFCC coefficients for unknown user and MFCC coefficients for a certain previous user and finds the min
+- Find the minimum of all the comparisons done in previous step
+- If name and ID matches for same user, then access is granted
+
+
+
+
+
+
+
+
+
+
 
 ## Team
 ### Students:

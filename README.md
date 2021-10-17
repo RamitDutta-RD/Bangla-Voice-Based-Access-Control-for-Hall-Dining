@@ -10,7 +10,7 @@ Demonstration video <a href="https://youtu.be/1bJfJCFnFjw">link</a>
 - [Workflow Diagram](#workflow-diagram)
 - [End-point detection](#End-point-detection)
 - [MFCC Feature Extraction](#MFCC-Feature-Extraction)
-- [Dynamic Time Warping](#Dynamic Time Warping)
+- [Dynamic Time Warping](#Dynamic-Time-Warping)
 - [Team](#team)
 ## Introduction
 
@@ -102,8 +102,11 @@ Here Cost matrix is used to find out the wrap path. Backtracking is done from th
 Our objective is to calculate the global warp cost from two vectors which indicates the minimum difference between them. 
 
 ## Team
+### Students:
 - Ramit Dutta (github - https://github.com/RamitDutta)
 - Shafin Bin Hamid (github - https://github.com/shafinbinhamid)
 - Sudipto Sikder
 - Md. Izaz Ahmed
-
+### Supervisor:
+- Dr. Celia Shahnaz (Professor, Dept of EEE, BUET)
+- Sadman Sakib Ahbab Jarif (Lecturer, Dept of EEE, BUET)

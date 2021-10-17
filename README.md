@@ -98,14 +98,16 @@ It is an recursive approach because previously calculated values of the cost mat
 **(b) To construct Wrap path:**
 Here Cost matrix is used to find out the wrap path. Backtracking is done from the N×N th element. We will consider  D(i,j) th element starting from N×N th element and compare the value with D(i,j-1),D(i-1,j) and D(i-1,j-1).Thus the minimum difference point is observed. In this process, we will end up at 1×1 th element. The wrap path is the path from N×N to 1×1 th element in which we found minimum difference with the immediate previous value. The global warp cost is the sum of all the values in the warp path divided by number of elements in the warp path. 
  <p align="center">
-  <img src="https://user-images.githubusercontent.com/66994793/137641185-49d1db5e-d08b-441a-a340-196e840ab1f5.png" width="400">
+  <img src="https://user-images.githubusercontent.com/66994793/137641185-49d1db5e-d08b-441a-a340-196e840ab1f5.png" width="450">
 </p>
 Our objective is to calculate the global warp cost from two vectors which indicates the minimum difference between them. 
 
 ## Implementation
+<p float="left">
+  <img src="Final_code/Picture1.gif" width="200" >
+  <img src="https://user-images.githubusercontent.com/66994793/137642289-7525af55-f4d7-48cb-af3f-2065dcadaa46.png" width="350" >
+</p>
 
-
-![image](https://user-images.githubusercontent.com/66994793/137641985-3cdaa9bd-4dcb-4b8e-af0a-de6dd9721bf5.png)
 
 - Creates new directory for new user
 - Store audio file in that directory
@@ -113,15 +115,6 @@ Our objective is to calculate the global warp cost from two vectors which indica
 - Performs DTW between new MFCC coefficients for unknown user and MFCC coefficients for a certain previous user and finds the min
 - Find the minimum of all the comparisons done in previous step
 - If name and ID matches for same user, then access is granted
-
-
-
-
-
-
-
-
-
 
 
 ## Team

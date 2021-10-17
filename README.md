@@ -8,9 +8,9 @@ Demonstration video <a href="https://youtu.be/1bJfJCFnFjw">link</a>
 - [Introduction](#introduction)
 - [Software Used](#software-used)
 - [Workflow Diagram](#workflow-diagram)
-- [End-point detection]
-- [MFCC Feature Extraction]
-- [Dynamic Time Warping]
+- [End-point detection](#End-point-detection)
+- [MFCC Feature Extraction](#MFCC-Feature-Extraction)
+- [Dynamic Time Warping](#Dynamic Time Warping)
 - [Team](#team)
 ## Introduction
 
